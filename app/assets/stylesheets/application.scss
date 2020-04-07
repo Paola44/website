@@ -13,10 +13,12 @@
  *= require_tree .
  *= require_self
  */
+@import "components/banner.css.scss";
 @import "components/buttons.css.scss";
+@import "components/body.css.scss";
 @import "components/cards.css.scss";
 @import "components/forms.css.scss";
-@import "components/banner.css.scss";
+
 
 @import "sections/hero-banners.css.scss";
 @import "sections/nav-barre.css.scss";

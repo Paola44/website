@@ -2,11 +2,11 @@
   background-size: cover;
   background-position: center;
   padding: 300px 0;
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+  // background: linear-gradient(rgba(0,0,0,0.4));
+  // background-color: rgba(0,0,0,0.4);
   background-image: url(work.jpg);
-  // width: 100%;
-  // height: 100%;
 }
+
 .banner h1 {
   margin: 0;
   color: white;
@@ -21,4 +21,38 @@
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+
+.data-aos h2 {
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+.welcome {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  background-color: rgb(37, 50, 55);
+}
+.welcome h2 {
+  padding: 2.5rem;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 0.25rem;
+  border-color: rgb(194, 223, 227);
+  color: rgb(194, 223, 227);
+  background-color: rgb(92, 107, 115);
 }
