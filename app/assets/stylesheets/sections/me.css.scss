@@ -1,0 +1,128 @@
+.who-i-am {
+  margin: 48px;
+  padding: 12px;
+  padding-left: 120px;
+  // padding-right: 120px;
+  background-color: white;
+}
+
+.presentation {
+  display: flex;
+  justify-content: space-between;
+  h1 {
+    color: black;
+    padding-left: 120px;
+  }
+  p {
+    color: black;
+    text-align: justify;
+    line-height: 200%;
+  }
+  img {
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+  }
+}
+
+.presentation-details {
+  width: 50%;
+  padding: 12px;
+}
+
+.fas-fa-caret-right {
+  color: red;
+  width: 32px;
+  height: 32px;
+}
+
+.avatar {
+  // width: 50%;
+  margin: auto;
+  img {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+  }
+}
+
+.life-style {
+  display: flex;
+}
+
+
+
+.timeline {
+  height: 160px;
+  border: solid;
+  color: white;
+
+    h2 {
+    font-size: 48px;
+  }
+
+
+  p {
+    width: 50%;
+  }
+}
+
+// .experience {
+//   width: 100%;
+//   height: 320px;
+//   border: solid;
+//   margin: 32px;
+//   padding: 32px;
+//   display: block;
+// }
+
+// #gauche {
+//   max-width: calc(100% - 75px);
+//   margin-left: 50px;
+//   margin-bottom: 50px;
+//   display: block;
+// }
+
+
+#gauche {
+  margin-left: 20%;
+  margin-right: 55%;
+  height: 100%;
+  float: left;
+  background-color: red;
+  text-align: right;
+}
+
+#droite {
+  margin-right: 20%;
+  margin-left: 55%;
+  height: 100%;
+  float: right;
+  background-color: green;
+}
+
+// .timeline {
+//   // max-width: 980px;
+//   margin: auto;
+// }
+
+// .date-content {
+//   height: 196px;
+//   width: 390px;
+//   margin-right: 0px;
+//   margin-bottom: 0px;
+// }
+
+// .date {
+//   text-align: right;
+//   color: white;
+
+//   img {
+//     height: 40px;
+//     width: 100px;
+//   }
+// }
+
+// .year {
+//   font-weight: 800px;
+// }

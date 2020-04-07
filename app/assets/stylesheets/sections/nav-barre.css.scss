@@ -1,0 +1,34 @@
+.navbar-lewagon {
+  justify-content: space-between;
+  background: #484b4f;
+  display: flex;
+  color: white;
+}
+
+.mr-auto {
+  justify-content: space-between;
+  display: flex;
+  padding: 12px;
+  margin: 12px;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.navbar-lewagon a {
+  text-decoration: none;
+  padding: 12px;
+}
+
+.navbar-lewagon li {
+  list-style: none;
+}
+
+.nav-link {
+  color: white;
+}
