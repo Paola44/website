@@ -29,6 +29,10 @@
   grid-gap: 16px;
 }
 
+
+
+
+
 .data-aos h2 {
   color: white;
 }
@@ -40,14 +44,25 @@
 //   font-family: Helvetica;
 // }
 
-.welcome {
-  height: 400px;
-  width: 400px;
-  // height: 100vh;
-  // width: 100vw;
+
+.welcome-from-right {
+  width: 70%;
+  margin-right: 30%;
+  // text-align: left;
   display: grid;
   place-items: center;
-  background-color: rgb(37, 50, 55);
+  background-color: #97dffc
+  // background-color: rgb(37, 50, 55);
+}
+
+.welcome-from-left {
+  width: 70%;
+  margin-left: 30%;
+  // text-align: right;
+  display: grid;
+  place-items: center;
+  background-color: #c94177;
+  // background-color: rgb(37, 50, 55);
 }
 
 .welcome p {
@@ -55,17 +70,28 @@
   border-style: solid;
   border-width: 2px;
   border-radius: 0.25rem;
-  border-color: rgb(194, 223, 227);
   color: rgb(194, 223, 227);
-  // background-color: rgb(92, 107, 115);
 }
 
 .test {
-  // width: 40%;
-  clear: both;
-  // height: 200px;
-  background: #FFF;
-  border-radius: 2px;
+  width: 50%;
+  background: grey;
+  border: 6px solid white;
   margin: 12vh 0;
-  padding: 10px;
+  margin-left: 12px;
+  margin-right: 12px;
+  padding: 32px;
+  text-align: justify;
+}
+
+[data-aos="customAnimationName"] {
+    opacity: 0;
+    // margin-left: -550px;
+    transform: rotate(90deg);
+    transition-property: opacity, margin-left, transform;
+}
+[data-aos="customAnimationName"].aos-animate {
+    opacity: 1;
+    margin-left: 0;
+    transform: rotate(0);
 }
