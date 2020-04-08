@@ -29,30 +29,43 @@
   grid-gap: 16px;
 }
 
-
 .data-aos h2 {
   color: white;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Helvetica;
-}
+// * {
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: border-box;
+//   font-family: Helvetica;
+// }
+
 .welcome {
-  height: 100vh;
-  width: 100vw;
+  height: 400px;
+  width: 400px;
+  // height: 100vh;
+  // width: 100vw;
   display: grid;
   place-items: center;
   background-color: rgb(37, 50, 55);
 }
-.welcome h2 {
+
+.welcome p {
   padding: 2.5rem;
   border-style: solid;
   border-width: 2px;
   border-radius: 0.25rem;
   border-color: rgb(194, 223, 227);
   color: rgb(194, 223, 227);
-  background-color: rgb(92, 107, 115);
+  // background-color: rgb(92, 107, 115);
+}
+
+.test {
+  // width: 40%;
+  clear: both;
+  // height: 200px;
+  background: #FFF;
+  border-radius: 2px;
+  margin: 12vh 0;
+  padding: 10px;
 }
