@@ -1,0 +1,79 @@
+.data-aos h2 {
+  color: white;
+}
+
+.welcome-from-right {
+  width: 70%;
+  margin-right: 30%;
+  // text-align: left;
+  display: grid;
+  place-items: center;
+  // background-color: #97dffc
+  // background-color: rgb(37, 50, 55);
+
+  img {
+    width: 108px;
+    height: 108px;
+  }
+}
+
+.welcome-from-left {
+  width: 70%;
+  margin-left: 30%;
+  text-align: right;
+  display: grid;
+  place-items: center;
+  // background-color: #c94177;
+  // background-color: rgb(37, 50, 55);
+
+  img {
+      width: 108px;
+      height: 108px;
+    }
+}
+
+
+.welcome p {
+  padding: 2.5rem;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 0.25rem;
+  color: rgb(194, 223, 227);
+}
+
+.test {
+  width: 50%;
+  background-color: white;
+  border: 6px solid black;
+  margin: 6vh 0;
+  margin-left: 12px;
+  margin-right: 12px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-align: justify;
+}
+
+[data-aos="customAnimationName"] {
+    opacity: 0;
+    // margin-left: -550px;
+    transform: rotate(90deg);
+    transition-property: opacity, margin-left, transform;
+}
+[data-aos="customAnimationName"].aos-animate {
+    opacity: 1;
+    margin-left: 0;
+    transform: rotate(0);
+}
+
+.img-test {
+  // background-image: url("fond-cocktail.png");
+  background-image: url("background.jpg");
+  background-image: linear-gradient (rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+  padding: 0px;
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}

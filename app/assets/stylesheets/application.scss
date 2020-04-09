@@ -13,6 +13,8 @@
  *= require_tree .
  *= require_self
  */
+
+@import "components/aos.css.scss";
 @import "components/banner.css.scss";
 @import "components/buttons.css.scss";
 @import "components/body.css.scss";
@@ -20,13 +22,13 @@
 @import "components/forms.css.scss";
 
 
-@import "sections/hero-banners.css.scss";
-@import "sections/nav-barre.css.scss";
-@import "sections/me.css.scss";
 @import "sections/contact-section.css.scss";
+@import "sections/footer.css.scss";
+@import "sections/hero-banners.css.scss";
+@import "sections/me.css.scss";
+@import "sections/nav-barre.css.scss";
 @import "sections/projet-section.css.scss";
 @import "sections/references-section.css.scss";
-@import "sections/footer.css.scss";
 
 @import "setup.css.scss";
 @import "fonts.css.scss";

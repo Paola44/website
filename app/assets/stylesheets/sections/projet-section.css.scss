@@ -1,9 +1,9 @@
 .projets-web {
   color: white;
   display: flex;
-  padding-left: 120px;
+  padding-left: 5%;
   // align-items: center;
-  padding-right: 120px;
+  padding-right: 5%;
 }
 
 .projets-web-picture {
@@ -21,11 +21,14 @@
   margin-left: 48px;
   margin-right: 48px;
   padding: 12px;
+
   h1 {
-    padding-left: 120px;
+    text-align: center;
   }
+
   p {
     text-align: justify;
+
     line-height: 200%;
   }
 }
@@ -37,8 +40,8 @@
 .projets-web-details {
   display: flex;
   img {
-    width: 128px;
-    height: 128px;
+    width: 100px;
+    height: 100px;
     padding: 12px;
     border-radius: 20%;
   }

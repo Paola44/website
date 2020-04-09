@@ -1,43 +1,11 @@
 <body class="body">
 
-<!-- <p id="notice"><%= notice %></p>
-
-<h1>Webs</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <%# @webs.each do |web| %>
-      <tr>
-        <td><%#= link_to 'Show', web %></td>
-        <td><%#= link_to 'Edit', edit_web_path(web) %></td>
-        <td><%#= link_to 'Destroy', web, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <%# end %>
-  </tbody>
-</table>
-
-<br>
-
-<%#= link_to 'New Web', new_web_path %>
-
- -->
-
-
-
 <!--nav-barre-->
 <section class="navbar navbar-expand-sm navbar-light navbar-lewagon">
   <a class="navbar-brand" href="#">
     <%= image_tag 'rocket-solid.svg' %>
   </a>
-  <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button> -->
+
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item dropdown">
@@ -77,9 +45,6 @@
 
 
 <!--hero-banner-->
-<!-- <section class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3))
-<%#= image_tag 'work.jpg' %>
-"> -->
 
 <section class="banner">
   <%#= image_tag 'work.jpg' %>
@@ -103,7 +68,6 @@
       accusantium maiores temporibus quod delectus adipisci nulla voluptates at quis.</p>
       <a class="navbar-brand" href="#">
         <div class="projets-web-picture">
-          <!-- <img src="../images/projets-web.jpg" alt="projets-web"> -->
           <%= image_tag 'projets-web.jpg' %>
         </div>
       </a>
@@ -112,7 +76,6 @@
       <div class="projet-icon">
         <li class="projets-web-details">
           <div>
-            <!-- <img src="../images/user_story.png" alt="user_story"> -->
             <%= image_tag 'user_story.png' %>
           </div>
           <div class="projet-texte">
@@ -121,10 +84,9 @@
           </div>
         </li>
       </div>
-      <div class="projet-icon">
+      <div>
         <li class="projets-web-details">
           <div>
-            <!-- <img src="../images/maquette.png" alt="maquette"> -->
             <%= image_tag 'maquette.png' %>
           </div>
           <div class="projet-texte">
@@ -133,10 +95,9 @@
           </div>
         </li>
       </div>
-      <div class="projet-icon">
+      <div>
         <li class="projets-web-details">
           <div>
-            <!-- <img src="../images/webdesign.png" alt="webdesign"> -->
             <%= image_tag 'webdesign.png' %>
           </div>
           <div class="projet-texte">
@@ -145,10 +106,9 @@
           </div>
         </li>
       </div>
-      <div class="projet-icon">
+      <div>
         <li class="projets-web-details">
           <div>
-            <!-- <img src="../images/code_web_development.svg" alt="code_web_development"> -->
             <%= image_tag 'code_web_development.svg' %>
           </div>
           <div class="projet-texte">
@@ -163,7 +123,7 @@
 
 <!--me-->
 <section>
-  <div id="me">
+  <!-- <div id="me">
     <div class="who-i-am">
       <div class="presentation">
         <div class="presentation-details">
@@ -174,15 +134,13 @@
           vero fuga animi porro alias unde minus est repellendus?</p>
         </div>
         <div class="avatar">
-          <!-- <img src="../images/paola_carbonnel.JPG" alt="paola_carbonnel_web_development"> -->
-          <%= image_tag 'paola_carbonnel.JPG' %>
+          <%#= image_tag 'paola_carbonnel.JPG' %>
         </div>
       </div>
     </div>
     <div class="life-style">
       <div class="card-trip">
-        <!-- <img src="../images/daucy_marketing_digital.jpg" /> -->
-        <%= image_tag 'daucy_marketing_digital.jpg' %>
+        <%#= image_tag 'daucy_marketing_digital.jpg' %>
         <div class="card-trip-infos">
           <div>
             <h2>d'aucy - Cheffe de produit junior</h2>
@@ -193,8 +151,7 @@
         </div>
       </div>
       <div class="card-trip">
-        <!-- <img src="../images/beer_heineken.jpg" /> -->
-        <%= image_tag 'beer_heineken.jpg' %>
+        <%#= image_tag 'beer_heineken.jpg' %>
         <div class="card-trip-infos">
           <div>
             <h2>Heineken - Responsable promotion des ventes</h2>
@@ -205,8 +162,7 @@
         </div>
       </div>
       <div class="card-trip">
-        <!-- <img src="../images/code_web_development.jpg" /> -->
-        <%= image_tag 'code_web_development.jpg' %>
+        <%#= image_tag 'code_web_development.jpg' %>
         <div class="card-trip-infos">
           <div>
             <h2>Le Wagon - New hard skill, new life ! </h2>
@@ -217,25 +173,50 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
-
-  <div class="welcome-from-right">
-    <p class="test" data-aos="fade-right" data-aos-duration="3000"> aaaaaa
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam vero rerum
-      iusto adipisci eos. Incidunt, at alias dolor obcaecati debitis fugiat temporibus
-      eius atque corporis quibusdam consequuntur vero fugit quisquam.</p>
-  </div>
-
-
-  <div class="welcome-from-left">
-    <p class="test" data-aos="fade-left" data-aos-duration="3000"> bbbbbb
-    In literary theory, a text is any object that can be "read", whether this
-    object is a work of literature, a street sign, an arrangement of buildings
-    on a city block, or styles of clothing. It is a coherent set of signs that
-    transmits some kind of informative message.[1] This set of signs is considered
-    in terms of the informative message's content, rather than in terms of its
-    physical form or the medium in which it is represented.</p>
+  <div class="img-test">
+    <div class="welcome-from-right" >
+      <div class="test" data-aos="fade-left" data-aos-duration="3000">
+        <h1>This is me</h1>
+        <h2>From Guadeloupe whit sun</h2>
+        <p><%= image_tag 'paola_carbonnel.JPG' %></p>
+      </div>
+    </div>
+    <div class="welcome-from-left">
+      <div class="test" data-aos="fade-right" data-aos-duration="3000">
+        <h1>2008 - 2014</h1>
+        <h2>School</h2>
+        <p>DUT Techniques de commercialisation
+           Bachelor European Business Management
+           Ecole de Management de Normandie</p>
+      </div>
+    </div>
+    <div class="welcome-from-right">
+      <div class="test" data-aos="fade-right" data-aos-duration="3000">
+        <h1>2014</h1>
+        <h2>d'aucy - Cheffe de produit junior</h2>
+        <p>Analyses des marchés plats cuisinés appertisés et surgelés, études quantitives
+        et qualitatives, développements de produits et gammes, communication
+        auprès des commerciaux et des consommateurs.</p>
+      </div>
+    </div>
+    <div class="welcome-from-left">
+      <div class="test" data-aos="fade-left" data-aos-duration="3000">
+        <h1>2016</h1>
+        <h2>Heineken - Responsable promotion de clientèle - CHR</h2>
+        <p>Suivi de points de ventes, animations de réseaux de distribution (pilotage
+        de plans d'actions, prospection, animations et promotions de ventes,
+        montage de dossier de prêts, pré-analyse financière</p>
+      </div>
+    </div>
+    <div class="welcome-from-right">
+      <div class="test" data-aos="fade-right" data-aos-duration="3000">
+        <h1>2019</h1>
+        <h2>Le Wagon - New skill, new life ! </h2>
+        <p>Développeuse web pour site et application mobile.</p>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -292,6 +273,10 @@
 
 <!--contact-->
 <section class="contact-section">
+
+</section>
+
+<section class="contact-section">
   <div id="contact-submit">
     <div class="contact">
       <h1>Contact</h1>
@@ -307,6 +292,7 @@
     </div>
   </div>
 </section>
+<br>
 
 <!--footer-->
 <section>
@@ -319,6 +305,7 @@
       <a href="#"><i class="fab fa-linkedin"></i></a>
     </div>
     <div class="footer-copyright">
+      <!-- <p>Ceci est un site réalisé avec ❤️ et Le Wagon Nantes</p> -->
       This footer is made with <i class="fas fa-heart"></i> at Le Wagon
     </div>
   </div>
