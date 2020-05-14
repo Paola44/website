@@ -1,0 +1,26 @@
+
+  #contact-content-page.flex
+    #contact-form-card
+      h3 Hello, there! We'll be glad to hear from you. Send us your thoughts.
+      = form_with(url: "/contacts", method: "post", local: true) do |f|
+
+        .contact-form-section
+          = label_tag(:fullname, "Full name")
+          / = form.email_field :email,  type:"email"  required:"required", class:"  border-2 border-gray-300 rounded   bg-gray-100 text-purple-800  placeholder-purple-800  w-full py-2  leading-tight focus:outline-none focus:shadow-outline" , placeholder:"Email Address"
+
+          .input-contact-form
+            / = f.text_field :fullname
+            = f.text_field :fullname, required:"required", class: " placeholder-gray-400", placeholder: "Fullname"
+          br
+        .contact-form-section
+          = label_tag(:email, "E-mail")
+          .input-contact-form
+            = f.text_field :email, required:"required", class: " placeholder-gray-400", placeholder: "fullname@email.com"
+          br
+        .contact-form-section
+          = label_tag(:message, "Message")
+          .input-contact-form
+            = f.text_area :message, required:"required", class: " placeholder-gray-400", placeholder: "Write your message here"
+          br
+        .contact-btn-submit.text-black
+          = submit_tag("C'est parti !")

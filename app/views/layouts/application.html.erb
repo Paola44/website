@@ -14,7 +14,52 @@
   </head>
 
   <body>
+    <section class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+<!--       <a class="navbar-brand" href="#">
+        <%#= image_tag 'rocket-solid.svg' %>
+        <%#= link_to "", root_path %>
+      </a> -->
+
+        <div class="btn-home">
+          <%= link_to root_path, class: 'btn-home-img' do %>
+            <%= image_tag 'rocket-solid.svg' %>
+          <% end %>
+        </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+              <%= link_to "Accueil", root_path %>
+          </li>
+          <li class="nav-item">
+              <%= link_to "Offres", offres_path %>
+          </li>
+          <li class="nav-item">
+              <%= link_to "Références", references_path %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "Contact", contacts_path %>
+          </li>
+        </ul>
+      </div>
+    </section>
     <%= yield %>
+    <!--footer-->
+    <section>
+      <div class="footer">
+        <div class="footer-links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="footer-copyright">
+          <!-- <p>Ceci est un site réalisé avec ❤️ et Le Wagon Nantes</p> -->
+          This footer is made with <i class="fas fa-heart"></i> at Le Wagon
+        </div>
+      </div>
+    </section>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
@@ -42,6 +87,7 @@
         mirror: false, // whether elements should animate out while scrolling past them
         anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
-      });    </script>
+      });
+    </script>
   </body>
 </html>

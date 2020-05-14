@@ -1,49 +1,5 @@
 <body class="body">
 
-<!--nav-barre-->
-<section class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-  <a class="navbar-brand" href="#">
-    <%= image_tag 'rocket-solid.svg' %>
-  </a>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item dropdown">
-        <a class="nav-link" href="#projet">Projets web<i class="fas fa-caret-down"></i></a>
-        <i class="fas fa-caret-down"></i>
-        <li>
-          <a class="dropdown-item" href="#">User stories</a>
-          <a class="dropdown-item" href="#">Maquette</a>
-          <a class="dropdown-item" href="#">Webdesign</a>
-          <a class="dropdown-item" href="#">Code</a>
-        </li>
-        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-        </div>
-      </li>
-<!--       <li class="nav-item active">
-        <a class="nav-link" href="#">Projets web</a>
-      </li> -->
-      <li class="nav-item">
-        <a class="nav-link" href="#me">Who am I / A propos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#references">Références</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contact-submit">Contact</a>
-      </li>
-      <!-- <li class="nav-item dropdown">
-        <img class="avatar dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" src="https://kitt.lewagon.com/placeholder/users/ssaunier" />
-        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-        </div>
-      </li> -->
-    </ul>
-  </div>
-</section>
-
-
 <!--hero-banner-->
 
 <section class="banner">
@@ -54,127 +10,13 @@
     <p>Nantes </p>
     <div class="btn-container">
       <a class="btn btn-flat" href="#contact-submit">Contactez moi</a>
-    </div>
-  </div>
-</section>
-
-<section class="projet-section">
-  <div class="projets-web" id="projet">
-    <div class="projets-web-structure">
-      <h1><strong>Projets web</strong></h1>
-      <p>Un projet web, qu'est-ce que c'est ?
-        <br>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quae atque officiis nostrum doloribus ad est cum, eos dolore deleniti,
-      accusantium maiores temporibus quod delectus adipisci nulla voluptates at quis.</p>
-      <a class="navbar-brand" href="#">
-        <div class="projets-web-picture">
-          <%= image_tag 'projets-web.jpg' %>
-        </div>
-      </a>
-    </div>
-    <div class="projets-web-structure">
-      <div class="projet-icon">
-        <li class="projets-web-details">
-          <div>
-            <%= image_tag 'user_story.png' %>
-          </div>
-          <div class="projet-texte">
-            <h2>User story & concept</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          </div>
-        </li>
-      </div>
-      <div>
-        <li class="projets-web-details">
-          <div>
-            <%= image_tag 'maquette.png' %>
-          </div>
-          <div class="projet-texte">
-            <h2>Maquette - Wireframe</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          </div>
-        </li>
-      </div>
-      <div>
-        <li class="projets-web-details">
-          <div>
-            <%= image_tag 'webdesign.png' %>
-          </div>
-          <div class="projet-texte">
-            <h2>Webdesign</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          </div>
-        </li>
-      </div>
-      <div>
-        <li class="projets-web-details">
-          <div>
-            <%= image_tag 'code_web_development.svg' %>
-          </div>
-          <div class="projet-texte">
-            <h2>Code & développement web</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          </div>
-        </li>
-      </div>
+        <%= link_to "Contact", contacts_path %>
     </div>
   </div>
 </section>
 
 <!--me-->
 <section>
-  <!-- <div id="me">
-    <div class="who-i-am">
-      <div class="presentation">
-        <div class="presentation-details">
-          <h1>Who am I</h1>
-          <p>Après avoir grandi en Guadeloupe, blablabla
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quasi cumque,
-          eius autem praesentium assumenda ullam, sapiente ab laboriosam nesciunt, deleniti
-          vero fuga animi porro alias unde minus est repellendus?</p>
-        </div>
-        <div class="avatar">
-          <%#= image_tag 'paola_carbonnel.JPG' %>
-        </div>
-      </div>
-    </div>
-    <div class="life-style">
-      <div class="card-trip">
-        <%#= image_tag 'daucy_marketing_digital.jpg' %>
-        <div class="card-trip-infos">
-          <div>
-            <h2>d'aucy - Cheffe de produit junior</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus
-            dolores ipsum laboriosam possimus harum facere doloribus quod vel at dolor
-            deleniti cum amet et perferendis, error adipisci dolore saepe eveniet.</p>
-          </div>
-        </div>
-      </div>
-      <div class="card-trip">
-        <%#= image_tag 'beer_heineken.jpg' %>
-        <div class="card-trip-infos">
-          <div>
-            <h2>Heineken - Responsable promotion des ventes</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus
-            dolores ipsum laboriosam possimus harum facere doloribus quod vel at dolor
-            deleniti cum amet et perferendis, error adipisci dolore saepe eveniet.</p>
-          </div>
-        </div>
-      </div>
-      <div class="card-trip">
-        <%#= image_tag 'code_web_development.jpg' %>
-        <div class="card-trip-infos">
-          <div>
-            <h2>Le Wagon - New hard skill, new life ! </h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus
-            dolores ipsum laboriosam possimus harum facere doloribus quod vel at dolor
-            deleniti cum amet et perferendis, error adipisci dolore saepe eveniet.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
   <div class="img-test">
     <div class="welcome-from-right" >
       <div class="test" data-aos="fade-left" data-aos-duration="3000">
@@ -219,21 +61,7 @@
     </div>
   </div>
 </section>
-
-<!--references-->
-<section class="references-section">
-  <div id="references">
-    <div class="references-blog">
-      <h1>Références</h1>
-      <p>Retrouver tous mes tours de passe-passe !</p>
-      <div class="references-details">
-        <p>
-        <br>
-        Tadaaa !</p>
-        <br>
-      </div>
-    </div>
-  </div>
+<section>
   <div class="references-blog">
     <h1>Actualités du net</h1>
     <p>Retrouvez des informations dont les sujets vont de la technique à la gestion de projet et passant par ... quelque chose d'autre.
@@ -242,7 +70,6 @@
   </div>
   <div class="life-style">
     <div class="card-trip">
-      <!-- <img src="../images/eat_sleep_code_repeat.jpg" /> -->
       <%= image_tag 'eat_sleep_code_repeat.jpg' %>
       <div class="card-trip-infos">
         <div>
@@ -251,7 +78,6 @@
       </div>
     </div>
     <div class="card-trip">
-      <!-- <img src="../images/design_thinking_web_dev_sprint.jpg" /> -->
       <%= image_tag 'design_thinking_web_dev_sprint.jpg' %>
       <div class="card-trip-infos">
         <div>
@@ -260,53 +86,12 @@
       </div>
     </div>
     <div class="card-trip">
-      <!-- <img src="../images/code_web_dev_ruby_on_rails_ror.jpg" /> -->
       <%= image_tag 'code_web_dev_ruby_on_rails_ror.jpg' %>
       <div class="card-trip-infos">
         <div>
           <h2>Ruby on rails (RoR), à quoi ça sert ?!</h2>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
-<!--contact-->
-<section class="contact-section">
-
-</section>
-
-<section class="contact-section">
-  <div id="contact-submit">
-    <div class="contact">
-      <h1>Contact</h1>
-      <div class="form">
-        <form accept-charset="UTF-8" action="https://formkeep.com/f/exampletoken" method="POST">
-          <input type="email" name="email" placeholder="Your Email">
-          <input type="text" name="name" placeholder="Your Name">
-          <input type="text" name="name" placeholder="Texte">
-          <input type="hidden" name="utf8" value="✓">
-          <button type="submit">Submit</button>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
-<br>
-
-<!--footer-->
-<section>
-  <div class="footer">
-    <div class="footer-links">
-      <a href="#"><i class="fab fa-github"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-facebook"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-linkedin"></i></a>
-    </div>
-    <div class="footer-copyright">
-      <!-- <p>Ceci est un site réalisé avec ❤️ et Le Wagon Nantes</p> -->
-      This footer is made with <i class="fas fa-heart"></i> at Le Wagon
     </div>
   </div>
 </section>
